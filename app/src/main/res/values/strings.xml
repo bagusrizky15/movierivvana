@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movie Rivvana</string>
+    <string name="slogan">Sign In to Continuou!</string>
+    <string name="slogan_signup">Welcome</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="new_user">New User? Sign Up Now!</string>
+    <string name="old_user">Have account? Sign In Now!</string>
+
+    <string name="username">Username</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="judul_home">Rivvana Movie Streaming App</string>
+    <string name="popular">Popular</string>
+    <string name="ganti_bahasa">Change Language</string>
+    <string name="kembali">Back</string>
+    <string name="about_me">About me</string>
+    <string name="desc">Description</string>
+</resources>

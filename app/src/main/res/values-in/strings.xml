@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rivvana</string>
+    <string name="slogan">Masuk untuk melanjutkan</string>
+    <string name="slogan_signup">Selamat Datang</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Masuk</string>
+    <string name="signup">Daftar</string>
+    <string name="new_user">User Baru? Daftar Sekarang!</string>
+    <string name="old_user">Punya akun? Masuk Sekarang!</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Nomor HP</string>
+    <string name="judul_home">Rivvana Movie Streaming App</string>
+    <string name="popular">Populer</string>
+    <string name="ganti_bahasa">Ubah Bahasa</string>
+    <string name="kembali">Kembali</string>
+    <string name="about_me">Tentang Saya</string>
+
+</resources>
