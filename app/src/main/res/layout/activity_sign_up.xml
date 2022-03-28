@@ -80,6 +80,7 @@ android:orientation="vertical">
         android:inputType="phone"/>
 
 </com.google.android.material.textfield.TextInputLayout>
+
 //password
 <com.google.android.material.textfield.TextInputLayout
     android:layout_width="match_parent"

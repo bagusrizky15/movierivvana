@@ -10,37 +10,32 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_fab"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/design_default_color_primary"
+            android:elevation="6dp"
+            android:src="@drawable/ic_baseline_favorite"/>
 
         <ImageButton
             android:id="@+id/imageBtn"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:layout_gravity="right"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="20dp"
             android:background="#00000000"
             android:src="@drawable/info_2"
-            tools:ignore="SpeakableTextPresentCheck">
-        </ImageButton>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvMovie"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:listitem="@layout/item_movie" />
+            tools:ignore="SpeakableTextPresentCheck"/>
 
     </LinearLayout>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/btn_fab"
-        android:layout_width="wrap_content"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMovie"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="end|bottom"
-        android:layout_margin="20dp"
-        android:backgroundTint="@color/design_default_color_primary"
-        android:elevation="6dp"
-        android:src="@drawable/ic_baseline_add_24"/>
+        tools:listitem="@layout/item_movie"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

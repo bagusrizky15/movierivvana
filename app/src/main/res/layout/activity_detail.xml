@@ -30,8 +30,8 @@
 
         <ImageView
             android:id="@+id/imgMovieDeskripsi"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
             android:layout_marginTop="24dp"
             android:src="@color/purple_500"
             app:layout_constraintEnd_toEndOf="parent"
@@ -60,14 +60,10 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </ScrollView>
-    <Button
-        android:id="@+id/button_Kembali"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/kembali"/>
+
 </LinearLayout>

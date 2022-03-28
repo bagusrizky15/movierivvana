@@ -15,6 +15,7 @@ import com.example.movierivvana.model.Response;
 import com.example.movierivvana.model.Result;
 import com.example.movierivvana.rest.ApiClient;
 import com.example.movierivvana.rest.ApiInterface;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.List;
 
@@ -29,11 +30,14 @@ public class MainActivity extends AppCompatActivity {
     int PAGE = 1;
     RecyclerView recyclerView;
     ImageButton button_Image;
+    FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mAuth = FirebaseAuth.getInstance();
 
         //hapus statusbar
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);

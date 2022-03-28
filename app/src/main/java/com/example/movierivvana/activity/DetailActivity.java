@@ -18,17 +18,11 @@ public class DetailActivity extends AppCompatActivity {
     ImageView imgDetail;
     TextView tvTitle, tvDetail;
     Result result;
-    Button button_Kembali;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-        button_Kembali = (Button) findViewById(R.id.button_Kembali);
-        button_Kembali.setOnClickListener(v -> {
-            Intent kembaliIntent = new Intent(DetailActivity.this, MainActivity.class);
-            startActivity(kembaliIntent);
-        });
 
         tvTitle = findViewById(R.id.tvJudulDeskripsi);
         tvDetail = findViewById(R.id.tvIsiDeskripsi);

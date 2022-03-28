@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431079829042",
+    "project_id": "rivvana-movie",
+    "storage_bucket": "rivvana-movie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431079829042:android:1a6849aeb29a697c76d62b",
+        "android_client_info": {
+          "package_name": "com.example.movierivvana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431079829042-v72oi1kb9ub91kdrjk8kp7m660pd1tma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDox_Frn1a8dIjzLVv744NJMPKPVcO4Fo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431079829042-v72oi1kb9ub91kdrjk8kp7m660pd1tma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
